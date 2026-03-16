@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>Shout</title>
+        <item>
+            <title>Version 1.0.9</title>
+            <pubDate>Tue, 11 Mar 2026 22:00:00 +0000</pubDate>
+            <sparkle:version>1.0.9</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's New in 1.0.9</h3>
+                <h4>Smarter Audio Device Recovery</h4>
+                <ul>
+                    <li>Smart device fallback with priority ordering — saved device, system default, built-in mic, then other devices</li>
+                    <li>Detects Bluetooth disconnections that don't change the default device</li>
+                    <li>Device health checks prevent fallback to unhealthy devices</li>
+                    <li>Recovery now escalates instead of giving up after 3 attempts</li>
+                    <li>CoreAudio negotiation moved off main thread to prevent UI freezes</li>
+                </ul>
+                <h4>Onboarding &amp; Licensing</h4>
+                <ul>
+                    <li>Language selection and model download steps in onboarding</li>
+                    <li>Paywall view with trial badge</li>
+                    <li>Privacy toggle switches consistently aligned</li>
+                </ul>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Fixed audio engine -10877 errors on device switch</li>
+                    <li>Fixed Swift concurrency warnings and deprecated API usage</li>
+                    <li>UI improvements to menu bar, notification cards, and settings</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/messisawesome10/shout-releases/releases/download/v1.0.9/Shout-1.0.9.zip"
+                sparkle:edSignature="FPBtVPN5ULvo23AuKUwsuDUzWMOjnpM6g6E9si4Rg/2Pne9sMhuknop1vD4PqGqzDYeG5X8UoYV+HjJviT4lAg=="
+                length="14117549"
+                type="application/octet-stream"
+            />
+        </item>
+    </channel>
+</rss>
