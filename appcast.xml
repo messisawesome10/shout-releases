@@ -3,6 +3,51 @@
     <channel>
         <title>Shout</title>
         <item>
+            <title>Version 1.1.0</title>
+            <pubDate>Sun, 16 Mar 2026 20:00:00 +0000</pubDate>
+            <sparkle:version>1.1.0</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's New in 1.1.0</h3>
+                <h4>Security</h4>
+                <ul>
+                    <li>Removed authentication token from app bundle</li>
+                    <li>Moved update distribution to public release channel</li>
+                    <li>Removed explicit sandbox opt-out from entitlements</li>
+                </ul>
+                <h4>Bundle Identity</h4>
+                <ul>
+                    <li>Updated bundle identifier to proper reverse-DNS format</li>
+                    <li>Automatic migration of Keychain items, UserDefaults, and login items from previous versions</li>
+                </ul>
+                <h4>Menu Bar App</h4>
+                <ul>
+                    <li>Shout now runs as a menu-bar-only app by default</li>
+                    <li>Launch at login now uses modern macOS login items (System Settings &gt; Login Items)</li>
+                </ul>
+                <h4>Automation</h4>
+                <ul>
+                    <li>New shout:// URL scheme — control Shout from Terminal, scripts, or other apps</li>
+                    <li>App Intents for Shortcuts — start/stop recording and check status from Shortcuts.app or Siri</li>
+                </ul>
+                <h4>Clipboard</h4>
+                <ul>
+                    <li>Transcription paste now preserves your clipboard — original contents are restored after pasting</li>
+                </ul>
+                <h4>Compatibility</h4>
+                <ul>
+                    <li>Now supports macOS 14 Sonoma and later</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/messisawesome10/shout-releases/releases/download/v1.1.0/Shout-1.1.0.zip"
+                sparkle:edSignature="qs2jkK3oADlg3QGEmX9Z+gCutdJR1lq/QEB0D1HwcLE9lvoqBhb1K4AxlYqc0a2gs1GNWQ6XFaEqx/xydLZhDA=="
+                length="14374449"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 1.0.9</title>
             <pubDate>Tue, 11 Mar 2026 22:00:00 +0000</pubDate>
             <sparkle:version>1.0.9</sparkle:version>
