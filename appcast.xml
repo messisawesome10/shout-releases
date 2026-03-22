@@ -3,6 +3,37 @@
     <channel>
         <title>Shout</title>
         <item>
+            <title>Version 1.1.2</title>
+            <pubDate>Sat, 22 Mar 2026 18:00:00 +0000</pubDate>
+            <sparkle:version>1.1.2</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's New in 1.1.2</h3>
+                <h4>New Features</h4>
+                <ul>
+                    <li>App activity tracking with timeline lane showing app usage</li>
+                    <li>Meetings lane in calendar timeline view</li>
+                    <li>Date picker filter in transcription history</li>
+                    <li>Model download progress bar in onboarding</li>
+                    <li>Play/stop toggle in transcription history</li>
+                </ul>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Fixed meetings showing empty in menu bar when calendar access was granted</li>
+                    <li>Fixed calendar weekday headers for non-Sunday locales</li>
+                    <li>Fixed onboarding permission order so native dialogs fire before System Settings</li>
+                    <li>Timeline editor now respects global VAD setting</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/messisawesome10/shout-releases/releases/download/v1.1.2/Shout-1.1.2.zip"
+                sparkle:edSignature="WdSczn3vjX3sXPncgxoWQrztyyEUlTgmGHG0DlmThsjj0wEb9Ergk/Nk6LMP8q2EZgn9m48eFKHC9To3Jz4RBg=="
+                length="14542344"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 1.1.1</title>
             <pubDate>Tue, 18 Mar 2026 12:00:00 +0000</pubDate>
             <sparkle:version>1.1.1</sparkle:version>
