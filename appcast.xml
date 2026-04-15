@@ -3,6 +3,49 @@
     <channel>
         <title>Shout</title>
         <item>
+            <title>Version 1.1.6</title>
+            <pubDate>Thu, 16 Apr 2026 00:35:00 +0000</pubDate>
+            <sparkle:version>1.1.6</sparkle:version>
+            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's New in 1.1.6</h3>
+                <h4>Highlights</h4>
+                <ul>
+                    <li>Premium UI polish, nightly batch transcription, focus fixes</li>
+                </ul>
+                <h4>New Features</h4>
+                <ul>
+                    <li>Nightly batch transcription for queued recordings</li>
+                    <li>New dark cube app icon</li>
+                    <li>Raycast-level premium onboarding redesign</li>
+                    <li>Frosted glass appearance for premium windows and modals</li>
+                    <li>Premium History date picker with reliability fixes</li>
+                </ul>
+                <h4>Polish</h4>
+                <ul>
+                    <li>Notification cards, dashboard, and timeline waveform polish</li>
+                    <li>Glass card VAD status indicator</li>
+                    <li>Warning system upsert logic</li>
+                    <li>Dashboard close routed through WindowManager</li>
+                    <li>Waveform observes palette changes live</li>
+                </ul>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Fixed update prompt stealing focus from foreground apps</li>
+                    <li>Fixed About and Paywall close buttons</li>
+                    <li>Fixed Saved Locks menu chevron</li>
+                    <li>Fixed license paywall interrupting meeting-triggered recording</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/messisawesome10/shout-releases/releases/download/v1.1.6/Shout-1.1.6.zip"
+                sparkle:edSignature="LVFJeGiIWDuL8/YUHYzgkLIoQmae6T1vegva8c2JoSChGY4rlPWZqpF17BITt43+nfD7a5u/0wDdKkt9PMRQAg=="
+                length="16434560"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 1.1.5</title>
             <pubDate>Thu, 02 Apr 2026 16:37:09 +0000</pubDate>
             <sparkle:version>1.1.5</sparkle:version>
