@@ -4,6 +4,15 @@
         <title>Shout</title>
         <item>
             <title>Version 1.2.2</title>
+            <description><![CDATA[
+                <p>A major stability and recording-reliability release.</p>
+                <ul>
+                    <li><b>Fixed</b> a crash ~20 minutes into long recordings, a crash when switching audio devices mid-recording, and playback voice-doubling.</li>
+                    <li><b>Recording reliability:</b> crash-safe file finalization, no same-minute truncation, fail-over to a backup folder if the recordings location is unwritable, low-disk warnings, and cleanup of stray system-audio files.</li>
+                    <li><b>Playback and stems:</b> mic, system, and a mixed track saved per recording; instant Mic/System/Both switching; Play for archive-only recordings; rebuilt timeline playback.</li>
+                    <li>Speaker labels temporarily removed while we rebuild how they're shown.</li>
+                </ul>
+            ]]></description>
             <pubDate>Mon, 08 Jun 2026 00:56:28 +0000</pubDate>
             <sparkle:version>1.2.2</sparkle:version>
             <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
