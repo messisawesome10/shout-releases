@@ -3,6 +3,19 @@
     <channel>
         <title>Shout</title>
         <item>
+            <title>Version 1.3.1</title>
+            <pubDate>Wed, 30 Sep 2026 16:22:16 +0000</pubDate>
+            <sparkle:version>1.3.1</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/messisawesome10/shout-releases/releases/download/v1.3.1/Shout-1.3.1.zip"
+                sparkle:edSignature="WS+3guvTr5fT6LGw0pSqpP/otRUXROgNVbTEiWYHGk/KTG12D0tD9UECrOThkge69AwgyNW20VVrJMFmzJSDBQ=="
+                length="18003586"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 1.3.0</title>
             <pubDate>Sun, 13 Sep 2026 18:37:00 +0000</pubDate>
             <sparkle:version>1.3.0</sparkle:version>
